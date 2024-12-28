@@ -1,0 +1,54 @@
+import React from "react";
+import { assets } from "../assets/assets";
+import { useNavigate } from "react-router-dom";
+
+const JobCard = ({ job }) => {
+	const navigate = useNavigate();
+
+	return (
+		<div className="border p-4 sm:p-6 shadow rounded bg-white flex flex-col">
+			<div className="flex justify-between items-center">
+				<img
+					className="h-6 sm:h-8"
+					src={assets.company_icon}
+					alt={`${job.company} logo`}
+				/>
+			</div>
+			<h4 className="font-medium text-lg sm:text-xl mt-2">{job.title}</h4>
+			<div className="flex flex-wrap items-center gap-2 sm:gap-3 mt-2 text-xs sm:text-sm">
+				<span className="bg-blue-50 text-blue-700 border border-blue-200 px-3 sm:px-4 py-1 rounded">
+					{job.location}
+				</span>
+				<span className="bg-red-50 text-red-700 border border-red-200 px-3 sm:px-4 py-1 rounded">
+					{job.level}
+				</span>
+			</div>
+			<p
+				className="text-gray-500 text-xs sm:text-sm mt-4"
+				dangerouslySetInnerHTML={{ __html: job.description.slice(0, 150) }}
+			></p>
+			<div className="mt-4 flex flex-col sm:flex-row gap-2 sm:gap-4 text-sm">
+				<button
+					onClick={() => {
+						navigate(`/apply-job/${job._id}`);
+						scrollTo(0, 0);
+					}}
+					className="bg-blue-600 text-white px-3 sm:px-4 py-2 rounded w-full sm:w-auto"
+				>
+					Apply now
+				</button>
+				<button
+					onClick={() => {
+						navigate(`/apply-job/${job._id}`);
+						scrollTo(0, 0);
+					}}
+					className="text-gray-500 border border-gray-500 rounded px-3 sm:px-4 py-2 w-full sm:w-auto"
+				>
+					Learn more
+				</button>
+			</div>
+		</div>
+	);
+};
+
+export default JobCard;
