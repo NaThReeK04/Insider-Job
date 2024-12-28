@@ -14,7 +14,8 @@ This project is a job portal platform designed to streamline the job application
    - Search bar, filter options, and a list of trusted companies and job postings. Provides a user-friendly job searching experience.
 
 2. **Job Description:**
-   ![Job Description](URL_to_image_2)
+   ![Job Description](https://github.com/user-attachments/assets/ad6f14ef-7693-49e0-b9b0-9797640751e4)
+
    - Detailed description of a Graphic Designer position, including responsibilities and required skills. Helps candidates understand job expectations.
 
 3. **User Profile:**
