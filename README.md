@@ -19,29 +19,29 @@ This project is a job portal platform designed to streamline the job application
    - Detailed description of a Graphic Designer position, including responsibilities and required skills. Helps candidates understand job expectations.
 
 3. **User Profile:**
-   ![User Profile](URL_to_image_3)
+   ![User Profile](https://github.com/user-attachments/assets/f486d420-f25a-4b45-ad52-2d3cf176fc83)
    - Displays user profile information, connected email accounts, and update options. Enhances user account management.
 
 4. **Applied Jobs:**
-   ![Applied Jobs](URL_to_image_4)
+   ![Applied Jobs](https://github.com/user-attachments/assets/e4b12695-21d5-4ff7-955b-d7b9718c7377)
    - List of applied jobs, showing companies, job titles, locations, dates, and statuses. Tracks application progress.
 
-5. **Job Listing for Full Stack Developer:**
-   ![Job Listing for Full Stack Developer](URL_to_image_5)
+5. **Job Listing **
+   ![Job Listing for Full Stack Developer](https://github.com/user-attachments/assets/2594c251-ec6e-419b-ad53-d88ac01f7e2e)
    - Detailed listing for a Full Stack Developer role, including job description, responsibilities, and skills required.
 
 6. **Recruiter Login:**
-   ![Recruiter Login](URL_to_image_6)
+   ![Recruiter Login](https://github.com/user-attachments/assets/859062b5-2b78-41e3-b418-b537b835c3e4)
    - Login interface for recruiters, including email, password fields, and a sign-up option. Facilitates recruiter access.
 
 7. **Add Job Interface:**
-   ![Add Job Interface](URL_to_image_7)
+   ![Add Job Interface](https://github.com/user-attachments/assets/990a0719-dd98-4219-bc23-55bb3ce38f46)
    - Fields for entering job details, including title, description, category, location, level, and salary. Simplifies job posting process.
 
 8. **Application Management:**
-   ![Application Management](URL_to_image_8)
+   ![Application Management](https://github.com/user-attachments/assets/d65d1136-e742-4b69-8e91-0fab33567cc4)
    - Interface showing job applications with columns for user name, job title, location, resume, and action. Manages applicant tracking.
 
 9. **Job Management:**
-   ![Job Management](URL_to_image_9)
+   ![Job Management](https://github.com/user-attachments/assets/d27417fc-cdb0-436f-bf42-c7dca989bcdd)
    - Interface displaying job postings with details like title, date, location, applicants, and status. Assists in managing job listings.
